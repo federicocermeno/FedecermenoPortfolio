@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    text-align: center;
+    height: 80vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,10,168,1) 50%, rgba(0,212,255,1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+#img img {
+    margin-top: 5em;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+#about-me {
+    background-color: #03001e;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+#emojione {
+    width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+#white-title {
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+#html-icon {
+    color: #dd4b25;
+    font-size: 80px;
+}
+
+.html:hover {
+    box-shadow: 0 0 40px #dd4b25;
+    transition: all 250ms ease;
+}
+
+#css-icon {
+    color: #006bc0;
+    font-size: 80px;
+}
+
+.css:hover {
+    box-shadow: 0 0 40px #006bc0;
+    transition: all 250ms ease;
+}
+
+#git-icon{
+    color: #e44c30;
+    font-size: 80px;
+}
+
+.git:hover {
+    box-shadow: 0 0 40px #e44c30;
+    transition: all 250ms ease;
+}
+
+#sass-icon {
+    color: #c36291;
+    font-size: 80px;
+}
+
+.scss:hover {
+    box-shadow: 0 0 40px #c36291;
+    transition: all 250ms ease;
+}
+
+#bootstrap-icon {
+    color: #7f12f9;
+    font-size: 80px;
+}
+
+.bootstrap:hover {
+    box-shadow: 0 0 40px #7f12f9;
+    transition: all 250ms ease;
+}
+
+#javascript-icon{
+    color: #f2bf26;
+    font-size: 80px;
+}
+
+.javascript:hover {
+    box-shadow: 0 0 40px #f2bf26;
+    transition: all 250ms ease;
+}
+#react-icon {
+    color: #61dbfb;
+    font-size: 80px ;
+}
+
+.react:hover {
+    box-shadow: 0 0 40px #61dbfb;
+    transition: all 250ms ease;
+}
+
+#skills {
+    background-color: #03001e;
+    height: 50vh;
+}
+
+#about-me-title {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    padding-bottom: 10px;
+    display: block;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#paragraph {
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    background: #26243b;
+}
+
+#card-text {
+    color: #fff;
+    font-size: 3em;
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.containerr {
+    background-color: #03001e;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    width: 50%;
+}
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media (orientation: portrait) {
+    .skills {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #emojione {
+        max-width: 100%;
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #about-me {
+        height: 100%;
+    }
+
+    .containerr {
+        display: block;
+        height: 100%;
+        padding: 0 12px;
+    }
+
+    #main-container {
+        height: 60vh;
+    }
+
+    #img img {
+        height: 240px;
+        width: 240px;
+    }
+
+    #card {
+        padding: 0.2rem;
+        display: block;
+        flex-basis: 40%;
+        flex-wrap: wrap;
+        margin: 11px auto;
+    }
+
+    .icon-container {
+        text-align: center;
+    }
+
+    #card-text {
+        font-size: larger;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+}
