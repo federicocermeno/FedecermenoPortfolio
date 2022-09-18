@@ -1,6 +1,4 @@
-# FedecermenoPortfolio
+# Federico Cermeño Portfolio
 
 
 https://fedecermeno.netlify.app/
-
-Desktop version -- In development
